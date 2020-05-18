@@ -1,0 +1,9 @@
+.video__info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  max-width: 287px;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}

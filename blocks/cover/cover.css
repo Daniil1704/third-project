@@ -1,0 +1,18 @@
+@import url(./__link/cover__link.css);
+@import url(./__shadow/cover__shadow.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+.cover {
+  margin: 0 auto;
+  margin-top: 102px;
+  max-width: 1184px;
+}
+.cover:hover .cover__shadow {
+  opacity: 0.8;
+  transition: 1s linear;
+}
+@media screen and (max-width: 425px) {
+  .cover {
+    margin-top: 48px;
+  }
+}

@@ -1,0 +1,13 @@
+.video__item {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.video__item:hover .video__shadow {
+  opacity: 0.8;
+  transition: 1s linear;
+}

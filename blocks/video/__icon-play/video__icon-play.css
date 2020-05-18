@@ -1,0 +1,9 @@
+.video__icon-play {
+  cursor: pointer;
+  width: 43px;
+  height: 43px;
+  background-image: url(../../../images/__icon_play.svg);
+  margin-top: 5%;
+  margin-left: 5%;
+  z-index: 3;
+}
